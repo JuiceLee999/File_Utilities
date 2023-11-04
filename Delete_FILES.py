@@ -1,3 +1,5 @@
+
+# This verion allows you to search and delete all the files in the results. 
 import tkinter as tk
 from tkinter import filedialog
 import os
@@ -121,7 +123,7 @@ def delete_files():
 
 # Create the main window
 root = tk.Tk()
-root.iconbitmap("images/juice_lee_icon.ico")
+#root.iconbitmap("images/juice_lee_icon.ico")
 root.title("Juiceyware - Search and Destroy")
 
 # Create and configure the widgets
